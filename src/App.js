@@ -50,12 +50,12 @@ function App() {
 
     if(user.name === computer.name) {
       return "Tie";
-    }else if(user.name == "Rock") {
-      return computer.name == "Scissor" ? "Win" : "Lose" 
-    }else if(user.name == "Scissor") {
-      return computer.name == "Paper" ? "Win" : "Lose" 
-    }else if(user.name == "Paper") {
-      return computer.name == "Rock" ? "Win" : "Lose" 
+    }else if(user.name === "Rock") {
+      return computer.name === "Scissor" ? "Win" : "Lose" 
+    }else if(user.name === "Scissor") {
+      return computer.name === "Paper" ? "Win" : "Lose" 
+    }else if(user.name === "Paper") {
+      return computer.name === "Rock" ? "Win" : "Lose" 
     }
   }
   return (

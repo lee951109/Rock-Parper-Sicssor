@@ -1,5 +1,4 @@
 import React from 'react'
-import scissor from '../images/scissor.png';
 
  
 const Box = (props) => {
